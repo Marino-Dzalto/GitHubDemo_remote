@@ -12,6 +12,7 @@ struct MainView: View {
     
     var body: some View {
         VStack {
+            Color.red.ignoresSafeArea(.all)
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
